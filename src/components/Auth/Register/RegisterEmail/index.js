@@ -67,10 +67,10 @@ function RegisterEmail() {
         <div>
             <AuthPage>
                 <div className={cx("form")}>
-                    <div className={cx("form-header")}>Create an account</div>
+                    <div className={cx("form-header")}>Tạo một tài khoản</div>
                     <div>
                         <div className={cx("input-wrapper")}>
-                            <label>Email Address</label>
+                            <label>Địa chỉ Email</label>
                             <input
                                 {...register("email", {
                                     required: "This is required",
@@ -90,7 +90,7 @@ function RegisterEmail() {
                             )}
                         </div>
                         <div className={cx("input-wrapper")}>
-                            <label>Password</label>
+                            <label>Mật khẩu</label>
                             <div className={cx("input-pass")}>
                                 <input
                                     {...register("password", {
@@ -145,24 +145,24 @@ function RegisterEmail() {
                         className={cx("btn-signup")}
                         disable={!isPasswordValid}
                     >
-                        Sign up
+                        Đăng ký
                     </Button>
                     <div className={cx("info-footer-form")}>
-                        <span>By registering, you agree to the</span>
+                        <span>Bằng cách đăng ký, bạn đồng ý với</span>
                         <a
                             target="_blank"
                             rel="noreferrer"
                             href="https://www.dotdashmeredith.com/brands-termsofservice"
                         >
-                            Terms of Use
+                            Điều khoản sử dụng
                         </a>
-                        <span>and</span>
+                        <span>và</span>
                         <a
                             target="_blank"
                             rel="noreferrer"
                             href="https://www.dotdashmeredith.com/brands-privacy"
                         >
-                            Privacy Policy
+                            Chính sách quyền riêng tư
                         </a>
                     </div>
                 </div>

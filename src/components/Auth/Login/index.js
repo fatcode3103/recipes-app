@@ -22,7 +22,7 @@ function LoginPage() {
         <div className={cx("auth-page-container")}>
             <AuthPage>
                 <div className={cx("form")}>
-                    <div className={cx("form-header")}>Log in</div>
+                    <div className={cx("form-header")}>Đăng nhập</div>
                     <div className={cx("form-content")}>
                         <Button
                             size="l"
@@ -33,26 +33,26 @@ function LoginPage() {
                                 className={cx("icon-button")}
                                 icon={faEnvelope}
                             />
-                            <span>Log in with Email</span>
+                            <span>Đăng nhâp với Email</span>
                         </Button>
                         <Button size="l" className={cx("btn", "btn-facebook")}>
                             <FontAwesomeIcon
                                 className={cx("icon-button")}
                                 icon={faFacebookF}
                             />
-                            <span>Log in with Facebook</span>
+                            <span>Đăng nhâp với Facebook</span>
                         </Button>
                         <Button size="l" className={cx("btn", "btn-google")}>
                             <FontAwesomeIcon
                                 className={cx("icon-button")}
                                 icon={faGoogle}
                             />
-                            <span>Log in with Google</span>
+                            <span>Đăng nhâp với Google</span>
                         </Button>
                         <div className={cx("noti")}>
-                            <span>Don't have an account?</span>
+                            <span>Bạn chưa có tài khoản?</span>
                             <Button to={PATH.REGISTER} onlyLink="true">
-                                Join now
+                                Tham gia ngay
                             </Button>
                         </div>
                     </div>

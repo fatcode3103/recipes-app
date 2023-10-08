@@ -23,9 +23,10 @@ function RegisterPage() {
             <AuthPage>
                 <div className={cx("form")}>
                     <div className={cx("form-header")}>
-                        <div>Sign up</div>
+                        <div>Tạo một tài khoản</div>
                         <span>
-                            Sign up to save and review your favorite recipes.
+                            Đăng ký để lưu và xem lại công thức nấu ăn yêu thích
+                            của bạn.
                         </span>
                     </div>
                     <div className={cx("form-content")}>
@@ -38,26 +39,26 @@ function RegisterPage() {
                                 className={cx("icon-button")}
                                 icon={faEnvelope}
                             />
-                            <span>Sign up with Email</span>
+                            <span>Đăng ký với Email</span>
                         </Button>
                         <Button size="l" className={cx("btn", "btn-facebook")}>
                             <FontAwesomeIcon
                                 className={cx("icon-button")}
                                 icon={faFacebookF}
                             />
-                            <span>Sign up with Facebook</span>
+                            <span>Đăng ký với Facebook</span>
                         </Button>
                         <Button size="l" className={cx("btn", "btn-google")}>
                             <FontAwesomeIcon
                                 className={cx("icon-button")}
                                 icon={faGoogle}
                             />
-                            <span>Sign up with Google</span>
+                            <span>Đăng ký với Google</span>
                         </Button>
                         <div className={cx("noti")}>
-                            <span>Have an account?</span>
+                            <span>Có một tài khoản?</span>
                             <Button to={PATH.LOGIN} onlyLink="true">
-                                Log in
+                                Đăng nhập
                             </Button>
                         </div>
                     </div>

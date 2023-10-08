@@ -30,7 +30,7 @@ function LoginEmail() {
                     <div className={cx("form-header")}>Log in with email</div>
                     <div>
                         <div className={cx("input-wrapper")}>
-                            <label>Email Address</label>
+                            <label>Địa chỉ Email</label>
                             <input
                                 {...register("email", {
                                     required: "This is required",
@@ -50,7 +50,7 @@ function LoginEmail() {
                             )}
                         </div>
                         <div className={cx("input-wrapper")}>
-                            <label>Password</label>
+                            <label>Mật khẩu</label>
                             <div className={cx("input-pass")}>
                                 <input
                                     {...register("password", {
@@ -79,7 +79,7 @@ function LoginEmail() {
                     </div>
                     <div className={cx("keep-login")}>
                         <input type="checkbox" />
-                        <span>Keep me logged in</span>
+                        <span>Giữ tôi luôn đăng nhập</span>
                         <FontAwesomeIcon
                             icon={faQuestionCircle}
                             className={cx("keep-login-icon")}
@@ -91,14 +91,14 @@ function LoginEmail() {
                         onClick={handleSubmit(onSubmit)}
                         className={cx("btn-login")}
                     >
-                        Login
+                        Đăng nhập
                     </Button>
                     <Button
                         to={PATH.LOGIN_EMAIL}
                         onlyLink="true"
                         className={cx("forgot-pass")}
                     >
-                        Forgot password?
+                        Quên mật khẩu?
                     </Button>
                 </div>
             </AuthPage>
