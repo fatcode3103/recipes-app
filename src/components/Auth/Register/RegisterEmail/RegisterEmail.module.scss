@@ -1,0 +1,80 @@
+.form {
+    margin-top: 20px;
+}
+
+.form-header {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.input-wrapper label {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.input-wrapper input {
+    padding: 10px 14px;
+    width: 350px;
+    transition: all 0.2s ease;
+}
+
+.input-wrapper input:focus {
+    outline-color: #136cd1;
+}
+
+.input-pass {
+    position: relative;
+}
+
+.show-pass-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px 0px;
+}
+
+.valid-item{
+    font-size: 14px;
+    margin: 0px 0px 4px;
+}
+
+.valid-item-icon-check,
+.valid-item-icon{
+    color: rgb(221, 219, 219);
+    margin-right: 4px;
+}
+
+.valid-item-icon-check{
+    color: rgb(51, 204, 51) !important;
+}
+
+.btn-signup {
+    margin: 20px 0px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+.info-footer-form{
+    width: 350px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.info-footer-form a{
+    text-decoration: underline;
+    margin: 0px 4px;
+}

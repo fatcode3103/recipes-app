@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import DefaultLayout from "./components/DefaultLayout";
+import { publicRouter } from "./router";
+import PublicRouter from "./utils/PublicRouter";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="App">
+            <BrowserRouter>
+                <Routes>
+                    {publicRouter &&
+                        publicRouter.length > 0 &&
+                        publicRouter.map((route, key) => {
+                            const Component = route.component;
+                            const isDefaultLayout = route.defaultLayout;
+                            return (
+                                <Route
+                                    key={key}
+                                    path={route.path}
+                                    element={
+                                        isDefaultLayout ? (
+                                            <DefaultLayout>
+                                                <PublicRouter
+                                                    Component={Component}
+                                                />
+                                            </DefaultLayout>
+                                        ) : (
+                                            <PublicRouter
+                                                Component={Component}
+                                            />
+                                        )
+                                    }
+                                />
+                            );
+                        })}
+                </Routes>
+            </BrowserRouter>
+        </div>
+    );
 }
 
 export default App;
