@@ -99,3 +99,12 @@ export const dataTextFooter3 = [
         title: "Nghề nghiệp",
     },
 ];
+
+export const dataDirectory = [
+    { title: "Tên món ăn" },
+    { title: "Phân loại" },
+    { title: "Cách nấu" },
+    { title: "Xuất xứ" },
+    { title: "Dịp nấu" },
+    { title: "Nguyên liệu" },
+];

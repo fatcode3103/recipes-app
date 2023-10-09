@@ -8,12 +8,24 @@ import Footer from "../Footer";
 const cx = classNames.bind(styles);
 
 function DefaultLayout({ children }) {
+    const [isShowSearchBar, setIsShowSearchBar] = useState(false);
+
+    const getStateShowSearchBarFromParent = (e) => {
+        setIsShowSearchBar(e);
+    };
+
     return (
         <div className={cx("default-layout-container")}>
             <div className={cx("header")}>
-                <Header />
+                <Header
+                    getStateShowSearchBarFromParent={
+                        getStateShowSearchBarFromParent
+                    }
+                />
             </div>
-            {children}
+            <div className={cx("children", { "no-distance": isShowSearchBar })}>
+                {children}
+            </div>
             <div className={cx("footer")}>
                 <Footer />
             </div>
