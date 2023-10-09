@@ -1,29 +1,29 @@
 export const menuHeader = [
     {
-        title: "DINNERS",
+        title: "BỮA TỐI",
     },
     {
-        title: "MEALS",
+        title: "CÁC BỮA ĂN",
     },
     {
-        title: "INGREDIENTS",
+        title: "THÀNH PHẦN",
     },
     {
-        title: "OCCASIONS",
+        title: "DỊP",
     },
     {
-        title: "CUISINES",
+        title: "MÓN ĂN",
     },
     {
-        title: "KITCHEN TIPS",
+        title: "MẸO LÀM BẾP",
     },
     {
-        title: "NEWS",
+        title: "TIN TỨC",
     },
     {
-        title: "FEATURES",
+        title: "ĐẶC TRƯNG",
     },
     {
-        title: "ABOUT US",
+        title: "VỀ CHÚNG TÔI",
     },
 ];

@@ -1,7 +1,7 @@
 import {} from "./svgHtml";
 
 const images = {
-    logoSvg: require("../images/logo.png"),
+    logoSvg: require("../images/LOGO WEB.png"),
     loginDesktop: require("../images/login.png"),
 };
 

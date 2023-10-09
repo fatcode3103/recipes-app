@@ -29,3 +29,71 @@
     font-size: 13px;
     font-weight: 600;
 }
+
+.search-icon{
+    padding: 0px 12px;
+    cursor: pointer;
+    position: relative;
+
+    &::after{
+        content: "";
+        display: block;
+        position: absolute;
+        width: 1px;
+        height: 100%;
+        background-color: #bbb;
+        right: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+.my-account{
+    padding: 0px 12px;
+    cursor: pointer;
+}
+
+.search-bar-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.search-bar-wrapper span{
+    font-weight: 600;
+    margin-right: 6px;
+}
+
+.search-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.search-wrapper input{
+    padding: 10px;
+    outline: none;
+    border: 1px solid #000;
+    width: 260px;
+}
+
+.search-icon-box{
+    padding: 11px 16px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: #fff;
+
+    &:hover{
+        opacity: 0.9;
+    }
+}
+
+.close-search-bar{
+    font-size: 40px;
+    color: #333;
+    opacity: 0.8;
+    padding: 10px;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 1;
+    }
+}
