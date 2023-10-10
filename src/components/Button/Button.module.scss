@@ -1,6 +1,6 @@
 
 .outline{
-    border: 1px solid #000;
+    border: 1px solid var(--primary-color);
     padding: 10px 20px;
     text-align: center;
     transition: all 0.2s ease;
@@ -68,6 +68,37 @@
     pointer-events: none !important;
     background-color: #e0dede !important;
     border: 1px solid #e0dede !important;
+}
+
+.btnCancel{
+    border: 1px solid var(--primary-color);
+    padding: 10px 20px;
+    background-color: #fff;
+    text-align: center;
+    transition: all 0.2s ease;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary-color);;
+
+    &:hover {
+        cursor: pointer;
+        color: #fff;
+        background-color: var(--primary-color);
+    }
+}
+
+.none{
+    padding: 10px 20px;
+    background-color: #fff;
+    text-align: center;
+    transition: all 0.2s ease;
+    font-size: 16px;
+    font-weight: 600;
+
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline solid var(--primary-color) 1.3px;
+    }
 }
 
 

@@ -5,12 +5,14 @@ import NotFoundPage from "../components/NotFoundPage";
 import RegisterPage from "../components/Auth/Register";
 import LoginEmail from "../components/Auth/Login/LoginEmail";
 import RegisterEmail from "../components/Auth/Register/RegisterEmail";
+import RecipePostingPage from "../containers/Page/RecipePostingPage";
+import DefaultLayout from "../components/DefaultLayout";
 
 export const publicRouter = [
     {
         path: PATH.HOME,
         component: Home,
-        defaultLayout: true,
+        DefaultLayout: DefaultLayout,
     },
     {
         path: PATH.LOGIN,
@@ -31,5 +33,12 @@ export const publicRouter = [
     {
         path: "*",
         component: NotFoundPage,
+    },
+];
+
+export const loginRouter = [
+    {
+        path: PATH.RECIPE_POSTING,
+        component: RecipePostingPage,
     },
 ];

@@ -1,0 +1,30 @@
+.suggest-container{
+    width: 100%;
+}
+
+.suggest-content{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.news-content{
+    background-color: #f5f6ea;
+    margin: 0px 0px 0px 20px;
+    padding: 16px 12px;
+}
+
+.news-content-title{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.news-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+    font-size: 15px;
+    font-weight: 600;
+}
+

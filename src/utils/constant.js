@@ -4,4 +4,5 @@ export const PATH = {
     REGISTER: "/authentication/register",
     LOGIN_EMAIL: "/authentication/login/email",
     REGISTER_EMAIL: "/authentication/register/email",
+    RECIPE_POSTING: "/recipe-posting",
 };

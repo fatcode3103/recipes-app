@@ -1,0 +1,48 @@
+.recipe-post-container{
+    padding: calc(var(--height-header) + 0px) 0px 0px 0px;
+    width: 100%;
+}
+
+.image-top{
+    object-fit: cover;
+    height: 120px;
+}
+
+.form{
+    position: absolute;
+    width: 600px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+    z-index: 10;
+    background-color: #fff;
+    padding: 32px;
+    box-shadow: 1px 1px 4px 1px #999;
+}
+
+.title-form{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.title-icon{
+    color: var(--primary-color);
+    font-size: 30px;
+}
+
+.header-form-desc{
+    border-bottom: 1px solid #ccc;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+.footer-form{
+    display: flex;
+    float: right;
+    gap: 20px;
+    margin-top: 20px;
+}

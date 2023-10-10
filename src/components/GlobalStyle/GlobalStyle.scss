@@ -1,7 +1,7 @@
 @import "normalize.css";
 
 :root {
-    --primary-color: #d54215;
+    --primary-color: #f15025;
     --link-color: #1975dc;
     --edit-color: rgb(252, 197, 0);
     --delete-color: #ec4134;
@@ -23,6 +23,14 @@ body {
 a {
     text-decoration: none;
     color: #000;
+}
+
+.underline-red{
+
+    &:hover{
+        cursor: pointer;
+        text-decoration: underline solid red 1.1px;
+    }
 }
 
 /* width */

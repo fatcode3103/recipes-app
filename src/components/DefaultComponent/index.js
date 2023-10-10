@@ -6,7 +6,7 @@ import styles from "./DefaultComponent.module.scss";
 const cx = classNames.bind(styles);
 
 function DefaultComponent() {
-    return <div>Default Component</div>;
+    return <div></div>;
 }
 
 export default DefaultComponent;

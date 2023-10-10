@@ -1,0 +1,64 @@
+.instruct {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.desc {
+    font-size: 14px;
+}
+
+.instruct span {
+    font-size: 12px;
+}
+
+.button {
+    display: flex;
+    margin-top: 20px;
+}
+
+.input-list {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-item {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.input-item input {
+    width: 93%;
+    padding: 6px 10px;
+    height: 60px;
+}
+
+.input-item-icon {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 4px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.6;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.step-text{
+    font-size: 14px !important;
+    font-weight: 600;
+    margin-bottom: 3px !important;
+    display: block;
+}

@@ -1,0 +1,57 @@
+.ingredient {
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.ingredient-title {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.ingredient-desc {
+    font-size: 14px;
+}
+
+.ingredient span {
+    font-size: 12px;
+}
+
+.ingredient-button {
+    display: flex;
+    margin-top: 20px;
+}
+
+.ingredient-input-list {
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ingredient-input-item {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.ingredient-input-item input {
+    width: 93%;
+    padding: 6px 10px;
+    height: 60px;
+}
+
+.ingredient-input-item-icon {
+    font-size: 20px;
+    cursor: pointer;
+    padding: 4px;
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.6;
+
+    &:hover {
+        opacity: 1;
+    }
+}

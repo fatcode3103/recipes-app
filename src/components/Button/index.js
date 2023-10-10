@@ -17,6 +17,8 @@ function Button(props) {
         onlyLink = false,
         normal = false,
         disable = false,
+        btnCancel = false,
+        none = false,
     } = props;
 
     let Comp = "div";
@@ -38,6 +40,8 @@ function Button(props) {
         onlyLink: onlyLink,
         normal: normal,
         disable: disable,
+        btnCancel: btnCancel,
+        none: none,
     });
 
     return (

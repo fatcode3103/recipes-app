@@ -1,0 +1,47 @@
+.recipe-desc {
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 40px;
+}
+
+.title,
+.description {
+    display: flex;
+    flex-direction: column;
+}
+
+.title span,
+.description span {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.title input {
+    padding: 6px 10px;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.description textarea {
+    padding: 6px 10px;
+}
+
+.up-img-wrapper {
+    position: relative;
+    cursor: pointer;
+}
+
+.up-img {
+    height: 210px;
+}
+
+.up-img-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 40%;
+}
