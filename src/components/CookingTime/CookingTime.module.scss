@@ -1,0 +1,70 @@
+.time-content{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.preparation-time,
+.preparation-time-input,
+.cooking-time,
+.cooking-time-input,
+.total-time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preparation-time{
+    margin-bottom: 30px;
+}
+
+.cooking-time{
+    margin-bottom: 30px;
+}
+
+.preparation-time span,
+.cooking-time span{
+    font-weight: 600;
+}
+
+.preparation-time-input,
+.cooking-time-input{
+    gap: 20px;
+}
+
+.preparation-time-input input,
+.cooking-time-input input{
+    width: 60px;
+    padding: 6px;
+}
+
+.total-time{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.total-time span:nth-child(2){
+    transform: translateX(50%);
+}
+
+.custom-select{
+    width: 220px;
+    border: 1px solid #888;
+    outline: none !important;
+}
+
+.custom-select:focus{
+    box-shadow: none;
+    border: 1px solid #888;
+}
+
+.more-time{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.btn-add-time{
+    padding: 0px;
+}
+

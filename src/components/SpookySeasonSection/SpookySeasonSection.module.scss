@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    margin: 40px 0px;
+    background-color: #D9D9D9;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding-top: 40px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.title {
+    font-weight: 800;
+}
+
+.title-icon {
+    font-size: 30px;
+    color: var(--primary-color);
+    margin-left: 10px;
+}

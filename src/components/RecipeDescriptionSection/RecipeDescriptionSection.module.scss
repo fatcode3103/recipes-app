@@ -35,6 +35,8 @@
 
 .up-img {
     height: 210px;
+    width: 210px;
+    object-fit: cover;
 }
 
 .up-img-icon {
@@ -44,4 +46,18 @@
     transform: translate(-50%, -50%);
     color: #fff;
     width: 40%;
+}
+
+.btn-upload-image{
+    padding: 6px;
+    width: fit-content;
+    margin: 10px 0px 4px 0px;
+}
+
+.btn-upload-image span{
+    margin-left: 8px;
+}
+
+textarea{
+    height: 120px;
 }

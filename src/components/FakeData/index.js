@@ -8,6 +8,7 @@ import {
     faTwitter,
     faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import images from "../../assets/images";
 
 export const dataContactFooter = [
     {
@@ -107,4 +108,73 @@ export const dataDirectory = [
     { title: "Xuất xứ" },
     { title: "Dịp nấu" },
     { title: "Nguyên liệu" },
+];
+
+export const dataEverydayCooking = [
+    {
+        title: "Bò sốt tiêu đen",
+        image: images.cooking1,
+    },
+    {
+        title: "Salad trộn",
+        image: images.cooking2,
+    },
+    {
+        title: "Thịt heo quay",
+        image: images.cooking3,
+    },
+    {
+        title: "Bò sốt tiêu đen",
+        image: images.cooking1,
+    },
+    {
+        title: "Salad trộn",
+        image: images.cooking2,
+    },
+    {
+        title: "Thịt heo quay",
+        image: images.cooking3,
+    },
+];
+
+export const dataWhatNew = [
+    {
+        title: "Pizza Soup",
+        image: images.whatNew1,
+    },
+    {
+        title: "Pumpkin-Black Cocoa Swirl Cake",
+        image: images.whatNew2,
+    },
+    {
+        title: "Shrimp Marinara",
+        image: images.whatNew3,
+    },
+    {
+        title: "Pizza Soup",
+        image: images.whatNew1,
+    },
+    {
+        title: "Pumpkin-Black Cocoa Swirl Cake",
+        image: images.whatNew2,
+    },
+    {
+        title: "Shrimp Marinara",
+        image: images.whatNew3,
+    },
+];
+
+export const dataSpookySeason = [
+    {
+        desc: "15 công thức bánh thú vị cho mùa Halloween",
+        image: images.halloween2,
+    },
+    {
+        desc: "Bánh quy móng tay, từ khủng khiếp đến sợ hãi.",
+        image: images.halloween3,
+    },
+    {
+        desc: "Bánh nướng nhỏ Halloween đáng yêu",
+        image: images.halloween4,
+    },
 ];

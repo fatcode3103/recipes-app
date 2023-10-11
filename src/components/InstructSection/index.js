@@ -83,7 +83,7 @@ function InstructSection() {
             <div className={cx("button")}>
                 <Button outline="true" onClick={() => handleAddInput()}>
                     <FontAwesomeIcon icon={faPlus} />
-                    Thêm nguyên liệu
+                    Thêm bước
                 </Button>
             </div>
         </div>

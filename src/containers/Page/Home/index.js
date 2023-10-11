@@ -2,6 +2,9 @@ import classNames from "classnames/bind";
 
 import styles from "./Home.module.scss";
 import SuggestSection from "../../../components/SuggestSection";
+import EverydayCookingSection from "../../../components/EverydayCookingSection";
+import WhatNewSection from "../../../components/WhatNewSection";
+import SpookySeasonSection from "../../../components/SpookySeasonSection";
 
 const cx = classNames.bind(styles);
 
@@ -31,6 +34,9 @@ function Home() {
             </div>
             <div className={cx("home-content")}>
                 <SuggestSection />
+                <EverydayCookingSection />
+                <SpookySeasonSection />
+                <WhatNewSection />
             </div>
         </div>
     );
