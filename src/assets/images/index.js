@@ -21,6 +21,7 @@ const images = {
     halloween2: require("../images/nhung-mon-an-thu-vi-cho-dem-halloween-202209070952598156 1.png"),
     halloween3: require("../images/banh-quy-ngon-tay-phu-thuy-halloween 1.png"),
     halloween4: require("../images/nhung-mon-an-thu-vi-cho-dem-halloween-202209070952598156 1.png"),
+    iconSuccess: require("../images/check.png"),
 };
 
 export default images;

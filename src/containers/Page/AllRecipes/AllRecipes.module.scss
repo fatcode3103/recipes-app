@@ -1,0 +1,28 @@
+.recipes-header{
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.recipes-header p:first-child{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.recipes-header p:nth-child(2) {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.recipes-header p:last-child {
+    font-size: 15px;
+}
+
+.recipes-footer{
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}

@@ -19,6 +19,7 @@ function Button(props) {
         disable = false,
         btnCancel = false,
         none = false,
+        fitContent = false,
     } = props;
 
     let Comp = "div";
@@ -42,6 +43,7 @@ function Button(props) {
         disable: disable,
         btnCancel: btnCancel,
         none: none,
+        fitContent: fitContent,
     });
 
     return (

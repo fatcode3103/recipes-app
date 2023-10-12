@@ -1,4 +1,5 @@
 import classNames from "classnames/bind";
+import { useState } from "react";
 
 import styles from "./EverydayCookingSection.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -6,10 +7,18 @@ import { faArrowRight, faStar } from "@fortawesome/free-solid-svg-icons";
 import images from "../../assets/images";
 import Image from "../Image";
 import { dataEverydayCooking } from "../FakeData";
+import ModalSaveRecipe from "../ModalSaveRecipe";
 
 const cx = classNames.bind(styles);
 
 function EverydayCookingSection() {
+    const [isShowModalSaveRecipeSuccess, setIsShowModalSaveRecipeSuccess] =
+        useState(false);
+
+    const handleSaveRecipe = () => {
+        setIsShowModalSaveRecipeSuccess(true);
+    };
+
     return (
         <div className={cx("container")}>
             <div className={cx("content")}>
@@ -32,6 +41,7 @@ function EverydayCookingSection() {
                                     <Image
                                         src={images.starLogo}
                                         className={cx("star-logo")}
+                                        onClick={() => handleSaveRecipe()}
                                     />
                                 </div>
                                 <div className={cx("title-item")}>
@@ -67,6 +77,12 @@ function EverydayCookingSection() {
                     })}
                 </div>
             </div>
+            <ModalSaveRecipe
+                setIsShowModalSaveRecipeSuccess={
+                    setIsShowModalSaveRecipeSuccess
+                }
+                isShowModalSaveRecipeSuccess={isShowModalSaveRecipeSuccess}
+            />
         </div>
     );
 }
